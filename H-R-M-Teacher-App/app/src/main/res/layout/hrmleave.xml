@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fb"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="engg.project.hrmt.Hrmleave">
+
+
+    <TextView
+        android:id="@+id/tid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:singleLine="true"
+        android:text="Teacher ID :-"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/fbLight"
+        android:textColorHint="@color/fbLight" />
+
+    <TextView
+        android:id="@+id/tdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tid"
+        android:layout_marginTop="20dp"
+        android:singleLine="true"
+        android:text="Date :-"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/fbLight"
+        android:textColorHint="@color/fbLight" />
+
+    <EditText
+        android:id="@+id/tdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/tdate"
+        android:layout_marginTop="20dp"
+        android:hint="Enter Leave Request"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="@color/fbLight"
+        android:textColorHint="@color/fbLight" />
+
+
+    <Button
+        android:id="@+id/bstore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tdetails"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/buttonborder"
+        android:text="Store Leave Request"
+        android:textColor="@color/fbLight"
+        android:textColorHint="@color/fb" />
+
+</RelativeLayout>

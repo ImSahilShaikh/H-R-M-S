@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MenuExampleActivity">
+    <item
+        android:id="@+id/menu1"
+        android:orderInCategory="1"
+        android:title="STUDENT'S NOTICE"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu2"
+        android:orderInCategory="2"
+        android:title="WEEK SCHEDULER"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/menu3"
+        android:orderInCategory="3"
+        android:title="NOTIFICATION"
+        app:showAsAction="never" />
+    <!--<item
+        android:id="@+id/menu4"
+        android:orderInCategory="4"
+        android:title="ASSESMENT SHEET"
+        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/menu6"
+        android:orderInCategory="6"
+        android:title="EXIT APP"
+        app:showAsAction="never" />
+</menu>
+

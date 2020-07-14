@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="engg.project.hrms.Hrmnotify"
+    android:background="@color/fb">
+
+    <TextView
+        android:id="@+id/tbinfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="20dp"
+        android:text="General Notifications With Details :-"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:singleLine="true"
+        android:textColor="@color/fbLight"
+        android:textColorHint="#ffffffff" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/tbinfo"
+        android:stretchColumns="1"
+        android:fillViewport="false"
+        android:scrollbars="vertical"
+        android:background="#ffffff">
+
+        <HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent" android:layout_height="match_parent">
+            <TableLayout
+                android:id= "@+id/tablelayout"
+                android:layout_width= "match_parent"
+                android:layout_height= "match_parent"
+                android:background="@color/fbLight"
+                android:textColor="@color/fbLight"
+                android:stretchColumns="*">
+            </TableLayout>
+        </HorizontalScrollView>
+
+    </ScrollView>
+
+</RelativeLayout>

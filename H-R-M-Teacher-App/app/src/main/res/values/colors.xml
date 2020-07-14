@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="crimson">#DC143C</color>
+    <color name="black">#000000</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="darkmagenta">#8B008B</color>
+    <color name="fuchsia">#FF00FF</color>
+    <color name="magaenta">#FF00FF</color>
+    <color name="tomato">#FF6347</color>
+    <color name="maroon">#800000</color>
+    <color name="brown">#A52A2A</color>
+    <color name="orchid">#DA70D6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="deepPink">#FF69B4</color>
+    <color name="fb">#3b5998</color>
+    <color name="fbLight">#dfe3ee</color>
+
+</resources>
